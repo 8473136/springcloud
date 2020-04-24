@@ -3,6 +3,10 @@ server:
 spring:
   application:
     name: config-server
+  boot:
+    admin:
+      client:
+        url: http://localhost:7007
   cloud:
     config:
       label: master

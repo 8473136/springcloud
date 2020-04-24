@@ -45,6 +45,17 @@
             <artifactId>spring-cloud-starter-config</artifactId>
             <version>2.1.1.RELEASE</version>
         </dependency>
+        <!-- spring cloud 链路追踪 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <version>2.1.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-starter-client</artifactId>
+            <version>2.1.1</version>
+        </dependency>
     </dependencies>
 
     <build>
